@@ -1,8 +1,8 @@
 {
-    "name": "cw-node-framework",
+    "name": "targety-ng",
     "version": "0.0.1",
     "private": true,
-    "description": "Cloudway node.js framework for AWS Lambda development",
+    "description": "Targety-ng node.js framework for AWS Lambda development, based on my original work for Targety @ CloudWay",
     "workspaces": {
         "packages": [
             "packages/*",
@@ -13,7 +13,7 @@
         ]
     },
     "repository": {
-        "url": "https://github.com/becloudway/targety"
+        "url": "https://github.com/sirmomster/targety"
     },
     "main": "index.js",
     "scripts": {
@@ -93,5 +93,9 @@
         "commitizen": {
             "path": "./node_modules/cz-conventional-changelog"
         }
+    },
+    "dependencies": {
+        "@changesets/cli": "^2.27.1",
+        "turbo": "^1.11.3"
     }
 }

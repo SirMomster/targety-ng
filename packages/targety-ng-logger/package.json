@@ -1,0 +1,19 @@
+{
+    "name": "targety-ng-logger",
+    "version": "0.1.2",
+    "description": "The logging module for targety",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "rm -rf ./lib && tsc",
+        "test": "jest"
+    },
+    "dependencies": {
+        "pino": "^7.0.5"
+    },
+    "devDependencies": {
+        "@dev/test-helper": "^0.0.5"
+    },
+    "author": "Mitch Mommers",
+    "license": "MIT",
+    "gitHead": "e1564e4d6549a1e548caeb21df26cb692fe10ee9"
+}

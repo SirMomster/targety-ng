@@ -3,34 +3,34 @@
 ```{admonition} WIP
 :class: info
 
-The code for targety-errors can be found [here](https://github.com/becloudway/targety/tree/main/packages/targety-errors)
+The code for targety-ng-errors can be found [here](https://github.com/becloudway/targety/tree/main/packages/targety-ng-errors)
 ```
 
 ```{admonition} Support is limited
 :class: error
 
-Currently only the `API Request Events` support default error handling, when using targety-errors with fi. SNS, SQS or other events an actuall error is thrown and no handling is done by Targety.
+Currently only the `API Request Events` support default error handling, when using targety-ng-errors with fi. SNS, SQS or other events an actuall error is thrown and no handling is done by Targety.
 ```
 
 Targety has build in error handling to be able to use these build in errors from targety without the need to include targety completly you can use
-the targety-errors module. This module only exposes the errors, Targety also depends on these errors and exposes them from within Targety as `Errors` or `lib/errors` see examples for more details.
+the targety-ng-errors module. This module only exposes the errors, Targety also depends on these errors and exposes them from within Targety as `Errors` or `lib/errors` see examples for more details.
 
-## Install targety-errors
+## Install targety-ng-errors
 
 Using npm:
 
 ```bash
-npm i targety-errors
+npm i targety-ng-errors
 ```
 
 Using yarn:
 ```bash
-yarn add targety-errors
+yarn add targety-ng-errors
 ```
 
 ##  Available errors
 
-The following errors are available within the targety-errors package.
+The following errors are available within the targety-ng-errors package.
 More are to be added in following updates of the package.
 
 | Error Class | Error Status Code | Error Name | Error Code |
@@ -52,8 +52,8 @@ Either by throwing it directly or by extending an API error within your own erro
 ```ts
 // Import from targety
 import { NotFoundError } from "targety/lib/errors";
-// Or import from targety-errors
-import { NotFoundError } from "targety-errors";
+// Or import from targety-ng-errors
+import { NotFoundError } from "targety-ng-errors";
 
 throw new NotFoundError("Item not found");
 ```
@@ -64,7 +64,7 @@ When throwing an error you might want to expose additional information.
 In thise case you can add this information as metadata then Targety will make it part of the error response.
 
 ```ts
-import { NotFoundError } from "targety-errors";
+import { NotFoundError } from "targety-ng-errors";
 
 throw new NotFoundError("Item not found", { item: itemId });
 ```
@@ -87,7 +87,7 @@ You could also achieve the same result by using the metadata as exposed property
 
 ```ts
 
-import { NotFoundError } from "targety-errors";
+import { NotFoundError } from "targety-ng-errors";
 
 const Error = new NotFoundError("Item not found");
 Error.metadata.set("item", itemId);
