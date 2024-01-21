@@ -1,6 +1,6 @@
 {
     "name": "targety-ng",
-    "version": "0.5.3-alpha.0",
+    "version": "0.5.3",
     "description": "AWS routing library for AWS Lambda, routing straight to your target",
     "license": "MIT",
     "main": "lib/index.js",
@@ -20,12 +20,12 @@
     "dependencies": {
         "cookie": "^0.4.0",
         "reflect-metadata": "^0.1.13",
-        "targety-ng-errors": "^0.0.1",
-        "targety-ng-logger": "^0.1.2",
+        "targety-ng-errors": "^0.0.2",
+        "targety-ng-logger": "^0.1.3",
         "yn": "^4.0.0"
     },
     "devDependencies": {
-        "@dev/test-helper": "^0.0.5",
+        "@dev/test-helper": "^0.0.6",
         "@types/aws-lambda": "^8.10.83",
         "@types/cookie": "^0.3.3",
         "@types/node": "^12.7.9",
