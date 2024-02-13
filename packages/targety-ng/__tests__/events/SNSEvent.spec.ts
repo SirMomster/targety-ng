@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-ignore */
-import { Event } from "@dev/test-helper";
+import { Event } from "targety-ng-test-helper";
 import { Context, SNSEvent } from "aws-lambda";
 import { Handler, Middleware } from "../../src";
 import { SNS } from "../../src/common/decorators/EventMapping";

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-ignore */
-import { Event } from "@dev/test-helper";
+import { Event } from "targety-ng-test-helper";
 import { S3Event } from "aws-lambda";
 import { ANY_SELECTOR } from "../../src/common/Constants";
 import { Handler, Middleware } from "../../src";

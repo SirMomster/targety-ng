@@ -1,4 +1,4 @@
-import { ApiGateWayProxyEvent } from "@dev/test-helper";
+import { ApiGateWayProxyEvent } from "targety-ng-test-helper";
 import { IsNumber, IsString, ValidationClass, ValidateBody } from "../../src/";
 import { ValidationError as ApiValidationError } from "targety-ng-errors";
 import { Request } from "targety-ng";

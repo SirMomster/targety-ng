@@ -11,7 +11,7 @@
         "pino": "^7.0.5"
     },
     "devDependencies": {
-        "@dev/test-helper": "^0.0.6"
+        "targety-ng-test-helper": "^0.0.6"
     },
     "author": "Mitch Mommers",
     "license": "MIT",

@@ -1,3 +1,3 @@
-# `test-helper`
+# `test-ng-test-helper`
 
 To make testing slightly easier and more convenient

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable @typescript-eslint/ban-ts-ignore */
-import { ApiGateWayProxyEvent } from "@dev/test-helper";
+import { ApiGateWayProxyEvent } from "targety-ng-test-helper";
 import "reflect-metadata";
 import { CORS, DefaultCORS, Get, Handler, LambdaProxyEvent, Middleware, Request, ResponseBody, S3 } from "../src";
 

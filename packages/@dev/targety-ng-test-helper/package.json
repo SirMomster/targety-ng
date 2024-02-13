@@ -1,9 +1,9 @@
 {
-    "name": "@dev/test-helper",
+    "name": "targety-ng-test-helper",
     "version": "0.0.6",
-    "description": "> TODO: description",
+    "description": "Testing library for targety-ng",
     "homepage": "",
-    "private": true,
+    "private": false,
     "license": "ISC",
     "main": "lib/index.js",
     "directories": {

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-ignore */
-import { Event } from "@dev/test-helper";
+import { Event } from "targety-ng-test-helper";
 import { Handler, Middleware, LambdaRequestAuthorizer, S3, SNS, SQS, LambdaEntryPoint } from "../../src";
 
 class HandlerImplementation extends Handler {

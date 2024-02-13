@@ -1,4 +1,4 @@
-import { ApiGateWayProxyEvent } from "@dev/test-helper";
+import { ApiGateWayProxyEvent } from "targety-ng-test-helper";
 
 import { LambdaProxyEvent, OptionsHandler, Request } from "../src";
 import { Route } from "../src";

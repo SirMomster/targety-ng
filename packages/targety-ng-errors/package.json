@@ -8,7 +8,7 @@
         "test": "jest"
     },
     "devDependencies": {
-        "@dev/test-helper": "^0.0.6"
+        "targety-ng-test-helper": "^0.0.6"
     },
     "author": "Mitch Mommers",
     "license": "MIT",

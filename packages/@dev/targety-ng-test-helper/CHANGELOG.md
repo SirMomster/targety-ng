@@ -1,4 +1,4 @@
-# @dev/test-helper
+# targety-ng-test-helper
 
 ## 0.0.6
 

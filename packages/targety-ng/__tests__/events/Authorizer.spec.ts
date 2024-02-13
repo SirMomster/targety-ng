@@ -1,4 +1,4 @@
-import { Event } from "@dev/test-helper";
+import { Event } from "targety-ng-test-helper";
 import { Handler, LambdaRequestAuthorizer, Middleware } from "../../src";
 import { LambdaAuthorizerRequest } from "../../src";
 import { Context } from "../../src/common/interfaces";

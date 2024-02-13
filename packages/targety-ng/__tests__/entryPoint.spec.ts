@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-ignore */
-import { ApiGateWayProxyEvent } from "@dev/test-helper";
+import { ApiGateWayProxyEvent } from "targety-ng-test-helper";
 import {
     Error as ApiError,
     Interfaces,
