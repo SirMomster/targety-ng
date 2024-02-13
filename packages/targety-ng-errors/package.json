@@ -1,6 +1,6 @@
 {
     "name": "targety-ng-errors",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "The errors module for targety",
     "main": "lib/index.js",
     "scripts": {
@@ -8,7 +8,7 @@
         "test": "jest"
     },
     "devDependencies": {
-        "targety-ng-test-helper": "^0.0.6"
+        "targety-ng-test-helper": "^0.0.7"
     },
     "author": "Mitch Mommers",
     "license": "MIT",
