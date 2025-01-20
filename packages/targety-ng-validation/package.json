@@ -1,6 +1,6 @@
 {
     "name": "targety-ng-validation",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "The validation module for targety",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -11,12 +11,12 @@
     "dependencies": {
         "class-transformer": "^0.5.1",
         "class-validator": "^0.13.2",
-        "targety-ng": "^0.5.4",
-        "targety-ng-errors": "^0.0.3",
-        "targety-ng-logger": "^0.1.4"
+        "targety-ng": "^0.5.5",
+        "targety-ng-errors": "^0.0.4",
+        "targety-ng-logger": "^0.1.5"
     },
     "devDependencies": {
-        "targety-ng-test-helper": "^0.0.7"
+        "targety-ng-test-helper": "^0.0.8"
     },
     "author": "Mitch Mommers",
     "license": "MIT"
