@@ -4,6 +4,7 @@
     "description": "AWS routing library for AWS Lambda, routing straight to your target",
     "license": "MIT",
     "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
     },

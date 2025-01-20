@@ -3,6 +3,7 @@
     "version": "0.0.3",
     "description": "The validation module for targety",
     "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "scripts": {
         "build": "rm -rf ./lib && tsc",
         "test": "jest"
